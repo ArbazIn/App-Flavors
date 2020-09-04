@@ -19,8 +19,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    /*https://ptyagicodecamp.github.io/how-did-i-set-up-multiple-flavors-for-an-android-app-under-5-minutes.html
-  https://stackoverflow.com/questions/23698863/build-flavors-for-different-version-of-same-class*/
+    /*
+    Ref:https://ptyagicodecamp.github.io/how-did-i-set-up-multiple-flavors-for-an-android-app-under-5-minutes.html
+    File strcture:https://stackoverflow.com/questions/23698863/build-flavors-for-different-version-of-same-class
+    Provider related issue(if we use in our proeject):https://stackoverflow.com/a/24850080/5995648
+    */
+    
 
     flavorDimensions "version"
 
